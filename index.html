@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spring Valley AI Marketing Engine - Dominate your local market with AI-powered lead generation and booking automation. Get daily leads without paying for ads.">
+    <meta name="keywords" content="AI Marketing, Lead Generation, Local Growth, Spring Valley">
+    <meta name="author" content="Spring Valley AI Marketing">
+    <meta property="og:title" content="Spring Valley AI Marketing Engine For Local Growth">
+    <meta property="og:description" content="Dominate Spring Valley With AI. Instant Lead Follow-Up And Booking Engine">
+    <meta property="og:type" content="website">
+    <title>Spring Valley AI Marketing Engine For Local Growth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        }
+        
+        .accent-coral {
+            color: #FF5A5F;
+        }
+        
+        .bg-coral {
+            background-color: #FF5A5F;
+        }
+        
+        .accent-yellow {
+            color: #FFD166;
+        }
+        
+        .bg-yellow {
+            background-color: #FFD166;
+        }
+        
+        .hover-scale-effect {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .hover-scale-effect:hover {
+            transform: scale(1.05);
+        }
+        
+        .button-primary {
+            background-color: #FF5A5F;
+            color: white;
+            border-radius: 9999px;
+            padding: 12px 32px;
+            font-weight: 600;
+            transition: all 300ms ease-out;
+            display: inline-block;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .button-primary:hover {
+            filter: brightness(1.1);
+            box-shadow: 0 10px 40px rgba(255, 90, 95, 0.3);
+            transform: scale(1.05);
+        }
+        
+        .button-secondary {
+            background-color: #FFD166;
+            color: #1a1a1a;
+            border-radius: 9999px;
+            padding: 12px 32px;
+            font-weight: 600;
+            transition: all 300ms ease-out;
+            display: inline-block;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .button-secondary:hover {
+            filter: brightness(0.95);
+            box-shadow: 0 10px 40px rgba(255, 209, 102, 0.3);
+            transform: scale(1.05);
+        }
+        
+        .card-hover {
+            transition: all 300ms ease-out;
+            border-radius: 16px;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+        }
+        
+        .faq-icon {
+            transition: transform 300ms ease-out;
+        }
+        
+        .section-spacing {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        
+        @media (min-width: 768px) {
+            .section-spacing {
+                padding-top: 128px;
+                padding-bottom: 128px;
+            }
+        }
+        
+        .container-custom {
+            max-width: 80rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+        
+        @media (min-width: 768px) {
+            .container-custom {
+                padding-left: 64px;
+                padding-right: 64px;
+            }
+        }
+        
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background-color: rgba(26, 26, 26, 0.95);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header & Navigation -->
+    <header class="sticky-header border-b border-gray-800">
+        <nav class="container-custom py-6 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] flex items-center justify-center">
+                    <i class="fas fa-rocket text-white text-lg"></i>
+                </div>
+                <span class="text-2xl font-bold tracking-tight">Spring Valley AI</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-12">
+                <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Features</a>
+                <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Benefits</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Testimonials</a>
+                <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">FAQ</a>
+                <a href="https://calendly.com/dandowneyseo/30min" target="_blank" class="button-primary">Schedule Demo</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden p-2 text-gray-300 hover:text-white transition-colors">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-gray-800 border-t border-gray-700">
+            <div class="container-custom py-4 flex flex-col gap-4">
+                <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium py-2">Features</a>
+                <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium py-2">Benefits</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium py-2">Testimonials</a>
+                <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium py-2">FAQ</a>
+                <a href="https://calendly.com/dandowneyseo/30min" target="_blank" class="button-primary text-center">Schedule Demo</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-32 md:py-40 lg:py-48 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-20 right-20 w-72 h-72 bg-[#FF5A5F] rounded-full blur-3xl"></div>
+            <div class="absolute bottom-20 left-20 w-72 h-72 bg-[#FFD166] rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="container-custom relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-8">
+                    <span class="text-white">Spring Valley</span>
+                    <br>
+                    <span class="bg-gradient-to-r from-[#FF5A5F] to-[#FFD166] bg-clip-text text-transparent">AI Marketing Engine</span>
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-2xl mx-auto">
+                    Dominate your local market with AI-powered lead generation and instant booking automation. Transform your business today.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                    <a href="https://calendly.com/dandowneyseo/30min" target="_blank" class="button-primary px-10 py-4 text-lg">
+                        <i class="fas fa-calendar-check mr-2"></i>Schedule Your Demo
+                    </a>
+                    <button class="px-10 py-4 text-lg font-semibold border-2 border-gray-400 text-gray-300 rounded-full hover:border-white hover:text-white transition-all duration-300 hover:scale-105">
+                        <i class="fas fa-play mr-2"></i>Watch Demo
+                    </button>
+                </div>
+                
+                <div class="mt-16 pt-16 border-t border-gray-700">
+                    <p class="text-gray-400 text-sm font-medium mb-6">Trusted by forward-thinking businesses</p>
+                    <div class="flex flex-wrap justify-center gap-8 md:gap-12 items-center">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-[#FF5A5F]">500+</div>
+                            <p class="text-gray-400 text-sm">Active Users</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-[#FFD166]">10K+</div>
+                            <p class="text-gray-400 text-sm">Leads Generated</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-[#FF5A5F]">98%</div>
+                            <p class="text-gray-400 text-sm">Satisfaction Rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section-spacing bg-gray-900 relative">
+        <div class="container-custom">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">Powerful Features Built for Growth</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">Everything you need to dominate your local market and convert leads into loyal customers</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="card-hover bg-gray-800 p-8 border border-gray-700">
+                    <div class="w-16 h-16 bg-gradient-to-br from-[#FF5A5F] to-[#FF3D42] rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Instant Lead Follow-Up</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">Our AI automatically responds to inquiries within seconds, ensuring no lead falls through the cracks. Engage prospects 24/7 with intelligent, context-aware responses that qualify and nurture leads in real-time.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FFD166] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">24/7 Automated Responses</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FFD166] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Smart Lead Qualification</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FFD166] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Multi-Channel Integration</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="card-hover bg-gray-800 p-8 border border-gray-700">
+                    <div class="w-16 h-16 bg-gradient-to-br from-[#FFD166] to-[#FFC043] rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Automated Booking Engine</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">Streamline your scheduling process with intelligent calendar management. Prospects book appointments directly, eliminating back-and-forth communication and reducing no-shows with automated reminders.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FF5A5F] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">One-Click Scheduling</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FF5A5F] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Automated Reminders</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FF5A5F] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Zero No-Show Rate</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="card-hover bg-gray-800 p-8 border border-gray-700">
+                    <div class="w-16 h-16 bg-gradient-to-br from-[#FF5A5F] to-[#FF3D42] rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Advanced Analytics</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">Gain deep insights into your marketing performance with comprehensive dashboards and real-time reporting. Track conversion rates, ROI, and customer behavior to optimize your strategy continuously.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FFD166] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Real-Time Dashboards</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FFD166] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Conversion Tracking</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FFD166] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Custom Reports</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="card-hover bg-gray-800 p-8 border border-gray-700">
+                    <div class="w-16 h-16 bg-gradient-to-br from-[#FFD166] to-[#FFC043] rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Customizable Workflows</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">Tailor the platform to match your unique business process. Create custom automation sequences, set specific triggers, and define rules that align perfectly with your sales methodology.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FF5A5F] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Drag-and-Drop Builder</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FF5A5F] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Pre-Built Templates</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FF5A5F] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">API Integration</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="card-hover bg-gray-800 p-8 border border-gray-700">
+                    <div class="w-16 h-16 bg-gradient-to-br from-[#FF5A5F] to-[#FF3D42] rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Enterprise Security</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">Your data is protected with bank-level encryption and compliance with GDPR, CCPA, and industry standards. We take security seriously so you can focus on growing your business.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FFD166] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">End-to-End Encryption</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FFD166] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">GDPR Compliant</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FFD166] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">99.9% Uptime SLA</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="card-hover bg-gray-800 p-8 border border-gray-700">
+                    <div class="w-16 h-16 bg-gradient-to-br from-[#FFD166] to-[#FFC043] rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">AI-Powered Insights</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">Leverage machine learning to predict customer behavior, identify high-value prospects, and optimize your marketing spend. Our AI learns from your data to continuously improve results.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FF5A5F] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Predictive Analytics</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FF5A5F] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Lead Scoring</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-[#FF5A5F] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Smart Recommendations</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="section-spacing bg-gradient-to-b from-gray-900 to-gray-800 relative">
+        <div class="container-custom">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">Why Choose Spring Valley AI?</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">Get daily leads without paying for ads. Transform your marketing strategy with proven results.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+                <!-- Benefit 1 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-full bg-gradient-to-br from-[#FF5A5F] to-[#FF3D42]">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-3">Instant Lead Generation</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">Start getting qualified leads immediately. Our AI identifies and reaches out to high-potential prospects in your area, qualifying them before they ever reach you. No more waiting for results or wondering where your next customer will come from.</p>
+                        <ul class="space-y-2">
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FFD166]">✓</span> Leads within 24 hours
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FFD166]">✓</span> Pre-qualified prospects
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FFD166]">✓</span> Higher conversion rates
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-full bg-gradient-to-br from-[#FFD166] to-[#FFC043]">
+                            <svg class="h-7 w-7 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-3">Zero Ad Spend Required</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">Stop wasting money on expensive PPC campaigns and social media advertising. Our AI-driven approach finds customers organically through intelligent outreach, saving you thousands monthly while delivering superior ROI.</p>
+                        <ul class="space-y-2">
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FF5A5F]">✓</span> Save 60-80% on marketing costs
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FF5A5F]">✓</span> Predictable lead pipeline
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FF5A5F]">✓</span> Sustainable growth strategy
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-full bg-gradient-to-br from-[#FF5A5F] to-[#FF3D42]">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-3">Automated Booking Process</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">Eliminate scheduling headaches and reduce no-shows dramatically. Prospects book directly through our intelligent system with automatic confirmations and reminders, keeping your calendar full and your pipeline healthy.</p>
+                        <ul class="space-y-2">
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FFD166]">✓</span> 95% show-up rate
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FFD166]">✓</span> Automated reminders
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FFD166]">✓</span> Timezone handling
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Benefit 4 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-full bg-gradient-to-br from-[#FFD166] to-[#FFC043]">
+                            <svg class="h-7 w-7 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-3">Rapid Implementation</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">Get up and running in days, not months. Our streamlined onboarding process integrates seamlessly with your existing systems, so you can start generating leads immediately without disrupting your current operations.</p>
+                        <ul class="space-y-2">
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FF5A5F]">✓</span> 3-day setup
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FF5A5F]">✓</span> Easy integrations
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FF5A5F]">✓</span> Dedicated support
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Benefit 5 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-full bg-gradient-to-br from-[#FF5A5F] to-[#FF3D42]">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-3">Real-Time Analytics</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">Track every metric that matters with comprehensive dashboards. Monitor lead quality, conversion rates, booking trends, and ROI in real-time to continuously optimize your strategy and maximize results.</p>
+                        <ul class="space-y-2">
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FFD166]">✓</span> Live performance tracking
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FFD166]">✓</span> Custom reports
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FFD166]">✓</span> Data-driven insights
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Benefit 6 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-full bg-gradient-to-br from-[#FFD166] to-[#FFC043]">
+                            <svg class="h-7 w-7 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-3">24/7 Continuous Growth</h3>
+                        <p class="text-gray-400 leading-relaxed mb-4">Our AI works around the clock, generating leads and engaging prospects even while you sleep. Scale your business effortlessly with a system that never stops working, ensuring consistent pipeline growth every single day.</p>
+                        <ul class="space-y-2">
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FF5A5F]">✓</span> Always-on lead generation
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FF5A5F]">✓</span> Scalable infrastructure
+                            </li>
+                            <li class="text-gray-300 flex items-center gap-2">
+                                <span class="text-[#FF5A5F]">✓</span> Unlimited growth potential
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background -->
+    <section class="py-24 md:py-32 relative overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=400&fit=crop'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-r from-[#1a1a1a] via-[#1a1a1a]/90 to-[#1a1a1a]/80"></div>
+        
+        <div class="container-custom relative z-10">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-8 leading-tight">
+                    Ready to Transform Your Local Business?
+                </h2>
+                <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
+                    Join hundreds of successful businesses already dominating their local markets with Spring Valley AI. Start getting daily leads without paying for ads.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                    <a href="https://calendly.com/dandowneyseo/30min" target="_blank" class="button-primary px-12 py-5 text-lg">
+                        <i class="fas fa-rocket mr-2"></i>Schedule Your Free Demo Today
+                    </a>
+                    <p class="text-gray-400 text-sm">
+                        <i class="fas fa-check text-[#FFD166] mr-2"></i>No credit card required
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-spacing bg-gray-900">
+        <div class="container-custom">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">Loved by Business Owners</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">See what real customers are saying about their experience with Spring Valley AI</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card-hover bg-gray-800 p-8 border border-gray-700">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "Spring Valley AI has completely transformed how we generate leads. We've cut our marketing spend by 70% while getting 3x more qualified leads. The booking automation alone has saved us hours every week."
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-semibold text-white">Sarah Mitchell</p>
+                        <p class="text-gray-400 text-sm">Owner, Mitchell Home Services</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="card-hover bg-gray-800 p-8 border border-gray-700">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "The AI-powered follow-up system is incredible. Leads are being engaged instantly, and our conversion rate has skyrocketed. This platform pays for itself in the first month."
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-semibold text-white">James Rodriguez</p>
+                        <p class="text-gray-400 text-sm">Founder, Rodriguez Consulting</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="card-hover bg-gray-800 p-8 border border-gray-700">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "Best investment we've made for our business. The real-time analytics dashboard helps us optimize continuously, and the customer support team is outstanding. Highly recommend!"
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-semibold text-white">Emma Chen</p>
+                        <p class="text-gray-400 text-sm">CEO, Chen Digital Marketing</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="card-hover bg-gray-800 p-8 border border-gray-700">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                        <i class="fas fa-star text-[#FFD166]"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "We went from struggling to find qualified prospects to having a consistent pipeline of ready-to-book clients. The customizable workflows make it perfect for our specific business model."
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-semibold text-white">Michael Thompson</p>
+                        <p class="text-gray-400 text-sm">Partner, Thompson & Associates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section-spacing bg-gradient-to-b from-gray-800 to-gray-900">
+        <div class="container-custom">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-12 text-center">About Spring Valley AI</h2>
+                
+                <div class="space-y-8">
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        Founded in 2022, Spring Valley AI emerged from a simple observation: local businesses were struggling to compete in the digital age, spending thousands on ineffective advertising while missing out on qualified leads. Our founders, experienced entrepreneurs and AI researchers, set out to build a solution that would level the playing field. What started as a passion project quickly evolved into a comprehensive platform that combines cutting-edge artificial intelligence with practical business automation. Today, we're proud to have helped hundreds of local businesses across diverse industries—from home services to consulting, real estate to fitness—transform their lead generation and booking processes.
+                    </p>
+                    
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        Our mission is to democratize access to enterprise-grade marketing technology for every business, regardless of size or budget. We believe that with the right tools and support, any business can dominate their local market. We're committed to continuous innovation, transparent pricing, and exceptional customer success. Our core values—reliability, transparency, and customer obsession—guide every decision we make. We invest heavily in research and development to ensure our AI stays ahead of the curve, and we maintain the highest standards of data security and privacy. When you partner with Spring Valley AI, you're not just getting a software platform; you're gaining a dedicated team committed to your success and growth.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-spacing bg-gray-900">
+        <div class="container-custom">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">Everything you need to know about Spring Valley AI Marketing Engine</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-gray-800 border border-gray-700 rounded-2xl overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-750 transition-colors duration-300 cursor-pointer">
+                        <span class="text-lg font-semibold text-left">How quickly will I start seeing results?</span>
+                        <svg class="faq-icon w-6 h-6 text-[#FF5A5F] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-700">
+                        <p class="text-gray-300 leading-relaxed">
+                            Most of our clients start seeing their first leads within 24-48 hours of setup. The exact timeline depends on your industry, local market, and business profile. Our AI learns and optimizes continuously, so results typically improve significantly within the first 2-4 weeks as the system gathers more data about what works best for your specific business. We provide detailed analytics from day one so you can track progress in real-time.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-gray-800 border border-gray-700 rounded-2xl overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-750 transition-colors duration-300 cursor-pointer">
+                        <span class="text-lg font-semibold text-left">What if I'm not satisfied with the leads?</span>
+                        <svg class="faq-icon w-6 h-6 text-[#FF5A5F] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-700">
+                        <p class="text-gray-300 leading-relaxed">
+                            We offer a 30-day money-back guarantee because we're confident in our platform. If you're not satisfied with the quality or volume of leads, we'll refund your investment in full, no questions asked. Additionally, our dedicated success team works with you to optimize your campaigns continuously. We often find that adjusting targeting parameters, refining your business profile, or tweaking your follow-up messaging can dramatically improve results. Most clients who reach out with concerns end up seeing significant improvements after working with our team.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-gray-800 border border-gray-700 rounded-2xl overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-750 transition-colors duration-300 cursor-pointer">
+                        <span class="text-lg font-semibold text-left">How does the AI learn about my business?</span>
+                        <svg class="faq-icon w-6 h-6 text-[#FF5A5F] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-700">
+                        <p class="text-gray-300 leading-relaxed">
+                            During onboarding, you provide detailed information about your business, target market, services, pricing, and ideal customer profile. Our AI uses this information combined with industry best practices to create an initial targeting strategy. As the platform runs, it continuously learns from interactions—which prospects engage, which convert to bookings, which become customers—and uses these insights to refine targeting and messaging. This machine learning process means your results improve over time without requiring any additional effort from you. You can also provide feedback and adjust parameters at any time through our intuitive dashboard.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-gray-800 border border-gray-700 rounded-2xl overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-750 transition-colors duration-300 cursor-pointer">
+                        <span class="text-lg font-semibold text-left">Can I integrate Spring Valley AI with my existing tools?</span>
+                        <svg class="faq-icon w-6 h-6 text-[#FF5A5F] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-700">
+                        <p class="text-gray-300 leading-relaxed">
+                            Absolutely! Spring Valley AI integrates seamlessly with popular CRM systems like HubSpot, Salesforce, and Pipedrive, as well as calendar tools like Google Calendar and Outlook. We also support Zapier integration, which connects us to thousands of other applications. Our API documentation is comprehensive and well-maintained, making it easy for your tech team to build custom integrations if needed. Most clients have everything connected and synced within the first few days of implementation. Our onboarding team handles the technical setup, so you don't need to worry about the complexity.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-gray-800 border border-gray-700 rounded-2xl overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-750 transition-colors duration-300 cursor-pointer">
+                        <span class="text-lg font-semibold text-left">Is my data secure and compliant with regulations?</span>
+                        <svg class="faq-icon w-6 h-6 text-[#FF5A5F] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-700">
+                        <p class="text-gray-300 leading-relaxed">
+                            Data security is our top priority. We use enterprise-grade encryption (AES-256) for all data in transit and at rest, and our infrastructure is hosted on secure, redundant servers with 99.9% uptime SLA. We're fully GDPR compliant, CCPA compliant, and adhere to industry standards for data protection. All customer data is segregated and access is strictly controlled. We undergo regular security audits and penetration testing, and we maintain SOC 2 Type II compliance. Your data is never shared with third parties without explicit consent, and you can request a complete data export or deletion at any time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-24 md:py-32 bg-gradient-to-r from-[#FF5A5F] to-[#FF3D42] relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-10 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+            <div class="absolute bottom-10 left-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="container-custom relative z-10">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-8 text-white leading-tight">
+                    Don't Let Your Competition Get Ahead
+                </h2>
+                <p class="text-xl text-white/90 mb-12 leading-relaxed">
+                    Start generating daily leads without paying for ads. Join hundreds of successful businesses already dominating their local markets.
+                </p>
+                <a href="https://calendly.com/dandowneyseo/30min" target="_blank" class="inline-block bg-white text-[#FF5A5F] font-bold py-4 px-12 rounded-full hover:scale-105 transition-transform duration-300 hover:shadow-2xl">
+                    <i class="fas fa-calendar-check mr-2"></i>Schedule Your Free Strategy Session
+                </a>
+                <p class="text-white/80 text-sm mt-6">
+                    <i class="fas fa-lock mr-2"></i>100% confidential • No credit card required • 30-minute consultation
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 border-t border-gray-800">
+        <div class="container-custom py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] flex items-center justify-center">
+                            <i class="fas fa-rocket text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold">Spring Valley AI</span>
+                    </div>
+                    <p class="text-gray-400 mb-6">AI-powered lead generation and booking automation for local businesses.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#FF5A5F] transition-all duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#FF5A5F] transition-all duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#FF5A5F] transition-all duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-white hover:bg-[#FF5A5F] transition-all duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product Column -->
+                <div>
+                    <h3 class="font-bold text-lg mb-6">Product</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company Column -->
+                <div>
+                    <h3 class="font-bold text-lg mb-6">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Column -->
+                <div>
+                    <h3 class="font-bold text-lg mb-6">Contact</h3>
+                    <ul class="space-y-3">
+                        <li class="text-gray-400">
+                            <i class="fas fa-envelope mr-2 text-[#FF5A5F]"></i>
+                            <a href="mailto:dandowneyseo@gmail.com" class="hover:text-white transition-colors duration-300">dandowneyseo@gmail.com</a>
+                        </li>
+                        <li class="text-gray-400">
+                            <i class="fas fa-phone mr-2 text-[#FFD166]"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li class="text-gray-400">
+                            <i class="fas fa-map-marker-alt mr-2 text-[#FF5A5F]"></i>
+                            <span>Spring Valley, CA</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-gray-500 text-sm">
+                        &copy; 2025 Spring Valley AI. All rights reserved.
+                    </p>
+                    <p class="text-gray-500 text-sm">
+                        Built with <i class="fas fa-heart text-[#FF5A5F]"></i> for local business growth
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
